@@ -11,3 +11,35 @@ html {
     font-size: 62.5%;
 }
 
+header {
+    padding: 10px 82px
+}
+
+.flex-container {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between; 
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.log img {
+    width: 25px;
+}
+
+.border-bottom {
+    border-bottom: black solid 3px;
+    padding-bottom: 5px;
+}
