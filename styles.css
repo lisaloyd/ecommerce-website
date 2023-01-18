@@ -7,7 +7,7 @@
 }
 
 html {
-    box-sizing: border box;
+    box-sizing: border-box;
     font-size: 62.5%;
 }
 
@@ -15,8 +15,37 @@ header {
     padding: 10px 82px
 }
 
+section {
+    padding: 0 84px;
+    padding-top: 50px;
+}
+
+
+#home {
+    background-image: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    color: white;
+    background-size: cover;
+    font-size: 35px;
+}
+
+
+#home-text-left {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+#home-text-right {
+    text-align: right;
+    padding-bottom: 84px;
+}
+
+
+
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .justify-between {
@@ -35,11 +64,19 @@ body {
     letter-spacing: 5px;
 }
 
-.log img {
+.logo img {
     width: 25px;
 }
 
 .border-bottom {
     border-bottom: black solid 3px;
     padding-bottom: 5px;
+}
+
+.product-card {
+
+}
+
+.product-card img {
+    width: 150px;
 }
