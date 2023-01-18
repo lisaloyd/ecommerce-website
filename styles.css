@@ -39,8 +39,6 @@ section {
     padding-bottom: 84px;
 }
 
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +77,8 @@ body {
 
 .product-card img {
     width: 150px;
+}
+
+.background-color {
+    background-color: #BF7631;
 }
